@@ -1,0 +1,12 @@
+alias l="ls -lah"
+alias ..="cd .."
+alias del="rm -rf"
+alias go="nodemon"
+
+#Git it done
+alias gc="git commit -m"
+alias gst="git status"
+
+
+#Favorite folders
+alias projects="cd ~/Projects"
