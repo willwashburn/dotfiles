@@ -1,11 +1,19 @@
+#Common stuff
 alias l="ls -lah"
 alias ..="cd .."
 alias del="rm -rf"
+alias e="mvim"
 alias go="nodemon"
+alias reload="source ~/.bashrc"
+
 
 #Git it done
+alias gac="git add -A && git commit -m"
 alias gc="git commit -m"
+alias gp="git push"
 alias gst="git status"
+
+
 
 
 #Favorite folders
