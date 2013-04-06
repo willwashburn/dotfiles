@@ -2,9 +2,13 @@
 Keeping things gangsta across all my machines, yo
 
 ##Installation
-Keeping things super easy here
 
 1. Clone this repo somewhere. I put them at ~/dotfiles
+
+    ```
+    git clone git@github.com:willwashburn/dotfiles.git ~/
+    ```
+
 2. Create symlinks by entering this into the terminal
     
     ```
@@ -17,3 +21,10 @@ Keeping things super easy here
     ```
     source ~/.bashrc
     ```
+
+4. Install Bundles by opening vim and running
+
+    ```
+    :BundleInstall
+    ```
+
