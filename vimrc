@@ -8,7 +8,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 "Github Bundles
-Bundle 'rstacruz/sparkup',{'rtp':'vim/'}
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
