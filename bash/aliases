@@ -5,6 +5,7 @@ alias del="rm -rf"
 alias e="mvim"
 alias go="nodemon"
 alias reload="source ~/.bashrc"
+alias md="greadme"
 
 
 #Git it done
