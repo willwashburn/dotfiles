@@ -12,6 +12,7 @@ alias md="greadme"
 alias gac="git add -A && git commit -m"
 alias gc="git commit -m"
 alias gp="git push"
+alias gpw="git push origin wdev"
 alias gst="git status"
 alias gl='git log --oneline --abbrev-commit --all --graph --decorate --color'
 
