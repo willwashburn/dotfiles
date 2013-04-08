@@ -13,11 +13,12 @@ Keeping things gangsta across all my machines, yo
     
     ```
     ln -s ~/dotfiles/bashrc ~/.bashrc
+    ln -s ~/dotfiles/bash_profile ~/.bash_profile
     ln -s ~/dotfiles/vimrc ~/.vimrc
     ln -s ~/dotfiles/gitrc ~/.gitrc
     ```
 
-3.  Source bashrc
+3.  Reload
 
     ```
     source ~/.bashrc
