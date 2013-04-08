@@ -14,9 +14,10 @@ Keeping things gangsta across all my machines, yo
     ```
     ln -s ~/dotfiles/bashrc ~/.bashrc
     ln -s ~/dotfiles/vimrc ~/.vimrc
+    ln -s ~/dotfiles/gitrc ~/.gitrc
     ```
 
-3. Reload bash
+3.  Source bashrc
 
     ```
     source ~/.bashrc
