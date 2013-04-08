@@ -2,11 +2,7 @@
 alias l="ls -lah"
 alias ..="cd .."
 alias del="rm -rf"
-alias e="mvim"
-alias go="nodemon"
 alias reload="source ~/.bashrc"
-alias md="greadme"
-
 
 #Git it done
 alias gac="git add -A && git commit -m"
@@ -16,6 +12,7 @@ alias gpw="git push origin wdev"
 alias gst="git status"
 alias gl='git log --oneline --abbrev-commit --all --graph --decorate --color'
 
-
-#Favorite folders
-alias projects="cd ~/Projects"
+#Misc
+alias e="mvim"
+alias brews='brew list -1'
+alias md="greadme"
