@@ -21,19 +21,6 @@ Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
 
-"Neocomplcache
-let g:neocomplcache_enable_at_startup = 1
-
-autocmd BufNewFile,BufRead *.scss             set ft=scss.css
-
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-
-
-
 "Vim basics
 set number
 set mouse=a
@@ -76,7 +63,18 @@ cmap WQ wq
 cmap wQ wq
 
 "nerdTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-e> :NERDTreeToggle<CR>
+
+"Neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+
+autocmd BufNewFile,BufRead *.scss             set ft=scss.css
+
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 " MacVim
 if has("gui_macvim")
