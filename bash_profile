@@ -10,9 +10,3 @@ export CLICOLOR=1
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
-
-# Tell ls to show some color
-export CLICOLOR=1
-
-# Tell grep to highlight matches
-export GREP_OPTIONS='--color=auto'
