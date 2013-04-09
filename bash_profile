@@ -1,3 +1,5 @@
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
 
