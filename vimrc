@@ -18,6 +18,7 @@ Bundle 'Shougo/neocomplcache'
 
 Bundle 'goatslacker/mango.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'noahfrederick/Hemisu'
 
 filetype plugin indent on
 
