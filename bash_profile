@@ -7,6 +7,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Tell ls to show some color
 export CLICOLOR=1
+export LSCOLORS="exfxcxdxbxegedabagacad"
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
