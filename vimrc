@@ -14,10 +14,25 @@ Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Tabular'
 
+Bundle 'Shougo/neocomplcache'
+
 Bundle 'goatslacker/mango.vim'
 Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
+
+"Neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+
+autocmd BufNewFile,BufRead *.scss             set ft=scss.css
+
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+
+
 
 "Vim basics
 set number
