@@ -55,7 +55,6 @@ set visualbell
 
 "http://www.guckes.net/vim/setup.html
 set sc "show cmds
-set tw=80 "text width
 
 "stupid fat fingers making stupid capital letters
 cmap W w
