@@ -2,6 +2,7 @@
 alias l="ls -lah"
 alias ..="cd .."
 alias del="rm -rf"
+alias view="open `pwd`/"
 alias reload="source ~/.bashrc"
 
 #Git it done
