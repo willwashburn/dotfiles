@@ -16,6 +16,8 @@ Bundle 'Tabular'
 
 Bundle 'Shougo/neocomplcache'
 
+Bundle 'terryma/vim-multiple-cursors'
+
 Bundle 'goatslacker/mango.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'noahfrederick/Hemisu'
