@@ -4,6 +4,8 @@ alias ..="cd .."
 alias del="rm -rf"
 alias view="open `pwd`/"
 alias reload="source ~/.bashrc"
+alias grep="grep --color"
+alias become="sudo su -"
 
 #Git it done
 alias gac="git add -A && git commit -m"

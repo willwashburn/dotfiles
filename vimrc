@@ -33,6 +33,7 @@ set noswapfile
 set autoread
 set spell
 set spelllang=en_us
+set ruler
 
 "Color
 syntax on
@@ -55,6 +56,12 @@ set history=50
 set hidden
 set visualbell
 
+
+" have Q reformat the current paragraph (or selected text if there is any): "
+nnoremap Q gqap
+vnoremap Q gq
+
+
 "http://www.guckes.net/vim/setup.html
 set sc "show cmds
 
@@ -63,6 +70,9 @@ cmap W w
 cmap Q q
 cmap WQ wq
 cmap wQ wq
+
+"stop recording accidentally"
+nmap q :
 
 "nerdTree
 map <C-e> :NERDTreeToggle<CR>

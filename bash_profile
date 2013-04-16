@@ -12,7 +12,11 @@ COLOR_BOLD="\[\e[1m\]"
 COLOR_DEFAULT="\[\e[0m\]"
 PS1="$COLOR_BOLD\u@\h \w \$ $COLOR_DEFAULT"
 
-
-
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
+
+# do close spelling matches with cd
+shopt -s cdspell
+shopt -s histappend
+shopt -s nocaseglob
+shopt -s checkwinsize
