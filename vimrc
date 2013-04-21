@@ -24,17 +24,6 @@ Bundle 'noahfrederick/Hemisu'
 
 filetype plugin indent on
 
-"Vim basics
-set number
-set mouse=a
-set showmatch
-set nobackup
-set noswapfile
-set autoread
-set spell
-set spelllang=en_us
-set ruler
-
 "Color
 syntax on
 set background=dark
@@ -43,27 +32,71 @@ color solarized
 "Tab
 set autoindent
 set smartindent
-set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 
-"
+"Vim basics
+set relativenumber
+set mouse=a
+set showmatch
+set autoread
+set spell
+set spelllang=en_us
 set splitright
 set autochdir
 set virtualedit=onemore
 set history=50
-set hidden
 set visualbell
+set cursorline
+set ttyfast
+set ruler
+set encoding=utf-8
+set scrolloff=3
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmenu=list:longest
+set backspace=index,eol,start
+set laststatus=2
 
+"Clean up those extraneous files
+set nobackup
+set noswapfile
+
+"Things learned from Steve Losh
+"http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+set nocompatible
+set modelines=0
+
+"Leader key 
+let leader = ","
+
+"searching
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+"Text Width
+set colorcolumn=80;
+
+"Fix j + k  movements to more sensible
+nnoremap j gj
+nnoremap k gk
 
 " have Q reformat the current paragraph (or selected text if there is any): "
 nnoremap Q gqap
 vnoremap Q gq
-
-
-"http://www.guckes.net/vim/setup.html
-set sc "show cmds
 
 "stupid fat fingers making stupid capital letters
 cmap W w
@@ -71,8 +104,14 @@ cmap Q q
 cmap WQ wq
 cmap wQ wq
 
+"because shift can be hard sometimes
+nnoremap ; :
+
 "stop recording accidentally"
 nmap q :
+
+"save file when we lose focus
+au FocusLost * :wa
 
 "nerdTree
 map <C-e> :NERDTreeToggle<CR>
@@ -80,9 +119,11 @@ map <C-e> :NERDTreeToggle<CR>
 "Neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 
+"Filetypes
 autocmd BufNewFile,BufRead *.scss             set ft=scss.css
 autocmd BufNewFile,BufRead Vagrantfile        set ft=Vagrantfile.ruby
 
+"completions
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
@@ -104,4 +145,3 @@ if has("gui_macvim")
     noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
     noremap <c-tab> :tabnext<cr>
 endif
-
