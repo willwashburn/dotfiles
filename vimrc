@@ -14,11 +14,11 @@ Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Tabular'
 Bundle 'tpope/vim-surround'
-
 Bundle 'Shougo/neocomplcache'
-
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'puppetlabs/puppet-syntax-vim'
 
+"Color schemes
 Bundle 'goatslacker/mango.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'noahfrederick/Hemisu'
