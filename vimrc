@@ -129,8 +129,9 @@ map <C-e> :NERDTreeToggle<CR>
 let g:neocomplcache_enable_at_startup = 1
 
 "Filetypes
-autocmd BufNewFile,BufRead *.scss             set ft=scss.css
-autocmd BufNewFile,BufRead Vagrantfile        set ft=Vagrantfile.ruby
+autocmd BufNewFile,BufRead *.scss               set ft=scss.css
+autocmd BufNewFile,BufRead Vagrantfile          set ft=Vagrantfile.ruby
+au BufNewFile,BufRead vhosts setf apache
 
 "completions
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
