@@ -153,4 +153,8 @@ if has("gui_macvim")
     " Preserve indentation while pasting text from the OS X clipboard
     noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
     noremap <c-tab> :tabnext<cr>
+
+    "Hide and go back to terminal
+    au VimLeave * maca hide:
+
 endif
