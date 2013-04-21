@@ -113,6 +113,15 @@ nmap q :
 "save file when we lose focus
 au FocusLost * :wa
 
+"Tabularize
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+endif
+
+
 "nerdTree
 map <C-e> :NERDTreeToggle<CR>
 
