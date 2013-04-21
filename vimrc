@@ -89,7 +89,7 @@ nnoremap <tab> %
 vnoremap <tab> %
 
 "Text Width
-set colorcolumn=80;
+set colorcolumn=85
 
 "Fix j + k  movements to more sensible
 nnoremap j gj
