@@ -8,6 +8,7 @@ alias grep="grep --color"
 alias become="sudo su -"
 
 #Git it done
+alias gi='git init && printf ".DS_Store\nThumbs.db\n" >> .gitignore && git add .gitignore && git commit -qm "Added initial .gitignore."'
 alias gac="git add -A && git commit -m"
 alias gc="git commit -m"
 alias gp="git push"
