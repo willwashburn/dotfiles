@@ -13,6 +13,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Tabular'
+Bundle 'tpope/vim-surround'
 
 Bundle 'Shougo/neocomplcache'
 
