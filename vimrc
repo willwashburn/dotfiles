@@ -109,8 +109,18 @@ nnoremap ; :
 "stop recording accidentally"
 nmap q :
 
-"save file when we lose focus
-au FocusLost * :wa
+" Periodical auto-save
+" Write to disk after 1 second of inactivity, once every 15 seconds.
+au BufRead,BufNewFile * let b:last_autosave=localtime()
+au CursorHold * call UpdateFile()
+au BufWritePre * let b:last_autosave=localtime()
+set updatetime=1000
+function! UpdateFile()
+    if exists("b:last_autosave") && ((localtime() - b:last_autosave) >= 15)
+        update
+        let b:last_autosave=localtime()
+    endif
+endfunction
 
 "Tabularize
 if exists(":Tabularize")
