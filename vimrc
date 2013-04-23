@@ -156,6 +156,6 @@ if has("gui_macvim")
     noremap <c-tab> :tabnext<cr>
 
     "Hide and go back to terminal
-    au VimLeave * maca hide:
+    au VimLeave * !open -a Terminal
 
 endif
