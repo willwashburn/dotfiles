@@ -17,6 +17,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'Shougo/neocomplcache'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'myusuf3/numbers.vim'
 
 "Color schemes
 Bundle 'goatslacker/mango.vim'
