@@ -59,7 +59,6 @@ set showmode
 set showcmd
 set hidden
 set wildmenu
-set backspace="index,eol,start"
 set laststatus=2
 
 "Clean up those extraneous files
