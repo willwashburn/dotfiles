@@ -123,6 +123,9 @@ function! UpdateFile()
     endif
 endfunction
 
+"save file when we lose focus as double precaution
+-au FocusLost * :wa
+
 "Tabularize
 if exists(":Tabularize")
   nmap <Leader>a= :Tabularize /=<CR>
