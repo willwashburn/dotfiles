@@ -124,7 +124,7 @@ function! UpdateFile()
 endfunction
 
 "save file when we lose focus as double precaution
--au FocusLost * :wa
+au FocusLost * :wa
 
 "Tabularize
 if exists(":Tabularize")
