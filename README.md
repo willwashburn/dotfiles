@@ -12,10 +12,7 @@ Keeping things gangsta across all my machines, yo
 2. Create symlinks by entering this into the terminal
     
     ```
-    ln -s ~/dotfiles/bashrc ~/.bashrc
-    ln -s ~/dotfiles/bash_profile ~/.bash_profile
-    ln -s ~/dotfiles/vimrc ~/.vimrc
-    ln -s ~/dotfiles/gitrc ~/.gitrc
+    bash install.sh
     ```
 
 3.  Reload
