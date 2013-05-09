@@ -82,7 +82,6 @@ set smartcase
 set gdefault
 set incsearch
 set showmatch
-set hlsearch
 nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
@@ -103,6 +102,8 @@ cmap W w
 cmap Q q
 cmap WQ wq
 cmap wQ wq
+
+noremap <c-tab> :tabnext<cr>
 
 "because shift can be hard sometimes
 nnoremap ; :
