@@ -6,7 +6,7 @@ Keeping things gangsta across all my machines, yo
 1. Clone this repo somewhere. I put them at ~/.dotfiles
 
     ```
-    git clone git@github.com:willwashburn/dotfiles.git ~/
+    git clone git@github.com:willwashburn/dotfiles.git ~/.dotfiles
     ```
 
 2. Create symlinks by entering this into the terminal
