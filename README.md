@@ -3,7 +3,7 @@ Keeping things gangsta across all my machines, yo
 
 ##Installation
 
-1. Clone this repo somewhere. I put them at ~/dotfiles
+1. Clone this repo somewhere. I put them at ~/.dotfiles
 
     ```
     git clone git@github.com:willwashburn/dotfiles.git ~/
@@ -12,7 +12,7 @@ Keeping things gangsta across all my machines, yo
 2. Create symlinks by entering this into the terminal
     
     ```
-    bash install.sh
+    bash ~/.dotfiles/install.sh
     ```
 
 3.  Reload
@@ -24,6 +24,6 @@ Keeping things gangsta across all my machines, yo
 4. Install Bundles by opening vim and running
 
     ```
-    :BundleInstall
+    vim +BundleInstall +qall
     ```
 
