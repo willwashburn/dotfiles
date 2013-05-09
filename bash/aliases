@@ -18,6 +18,13 @@ alias gst="git status"
 alias gl='git log --oneline --abbrev-commit --all --graph --decorate --color'
 
 #Misc
-alias e="mvim"
+
+macvim_e() {
+    touch $1 && open -a MacVim.app $1
+}
+alias e="macvim_e"
+
 alias brews='brew list -1'
 alias md="greadme"
+
+
