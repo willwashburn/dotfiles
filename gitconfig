@@ -3,3 +3,7 @@
 	email = will.washburn@gmail.com
 [color]
     ui = true
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
