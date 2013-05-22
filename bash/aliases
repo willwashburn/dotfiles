@@ -64,6 +64,8 @@ alias gpl="git pull"
 alias gpw="git push origin wdev"
 alias gst="git status"
 alias gl='git log --oneline --abbrev-commit --all --graph --decorate --color'
+alias gb='git branch'
+alias gbv='git branch -v'
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
