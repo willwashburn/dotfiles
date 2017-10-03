@@ -86,13 +86,3 @@ hs.hotkey.bind({"cmd","ctrl"}, "Right", function()
   f.h = max.h
   win:setFrame(f)
 end)
-
------------------------------------------------
--- Reload config on write
------------------------------------------------
-function reload_config(files)
-  hs.reload()
-end
-hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reload_config):start()
-hs.alert.show("Config loaded")
-
