@@ -1,7 +1,6 @@
-#Will's Dotfile's
-Keeping things gangsta across all my machines, yo
+# Will's Dotfile's
 
-##Installation
+## Installation
 
 1. Clone this repo somewhere. I put them at ~/.dotfiles
 
@@ -9,7 +8,7 @@ Keeping things gangsta across all my machines, yo
     git clone git@github.com:willwashburn/dotfiles.git ~/.dotfiles
     ```
 
-2. Create symlinks by entering this into the terminal
+2. If you put them at ~/.dotfiles, you can create symlinks by entering this into the terminal
     
     ```
     bash ~/.dotfiles/install.sh
@@ -20,10 +19,3 @@ Keeping things gangsta across all my machines, yo
     ```
     source ~/.bashrc
     ```
-
-4. Install Bundles by opening vim and running
-
-    ```
-    vim +BundleInstall +qall
-    ```
-
