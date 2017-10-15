@@ -4,6 +4,11 @@
 hs.window.animationDuration = 0
 
 -----------------------------------------------
+-- Modules
+-----------------------------------------------
+require('modules.caffeine')
+
+-----------------------------------------------
 -- cmd-left for left one half window
 -----------------------------------------------
 hs.hotkey.bind({"cmd"}, "Left", function()
